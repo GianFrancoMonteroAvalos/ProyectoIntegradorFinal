@@ -135,3 +135,36 @@ nav {
     font-weight: bold;
     border-radius: 5px;
 }
+
+/* Estas clases se agregaran dinamicamente mediante javascript */
+
+.skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 99%;}
+}
+
+.skills .skill .css{
+    width: 0%;
+    animation: 2s CSS forwards;
+}
+
+@keyframes CSSt {
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 79%;}
+}
+
